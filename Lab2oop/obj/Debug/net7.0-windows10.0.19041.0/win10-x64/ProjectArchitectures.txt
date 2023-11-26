@@ -1,0 +1,1 @@
+C:\Users\Денис\source\repos\Lab2oop\Lab2oop\Lab2oop.csproj;x64

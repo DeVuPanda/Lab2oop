@@ -1,0 +1,59 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab2oop.MainPage">
+
+    <ScrollView>
+        <Grid ColumnDefinitions="Auto, *">
+            <VerticalStackLayout Grid.Column="0" Spacing="15" Padding="15">
+
+                <Button Text="Вибрати XML Файл" Clicked="OnSelectXmlFileClicked"/>
+
+                <HorizontalStackLayout>
+                    <RadioButton x:Name="SaxRadioButton" Content="SAX API"/>
+                    <RadioButton x:Name="DomRadioButton" Content="DOM API" Margin="60,0,0,0"/>
+                    <RadioButton x:Name="LinqRadioButton" Content="LINQ to XML" Margin="60,0,0,0"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout HorizontalOptions="Start">
+                    <Entry x:Name="SearchEntry" Placeholder="Введіть текст тут" WidthRequest="200"/>
+                    <Button Text="Пошук" Clicked="OnSearchClicked"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout HorizontalOptions="Start">
+                    <Button Text="Трансформувати у HTML" Clicked="OnTransformToHtmlClicked"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout HorizontalOptions="Start">
+                    <Button Text="Очистити" Clicked="OnClearClicked"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout HorizontalOptions="Start">
+                    <Button Text="Завершити виконання програми" Clicked="OnLeaveClicked"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout>
+
+                    <RadioButton x:Name="AuthorRadioButton" Content="Автор"/>
+
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout >
+                    <RadioButton x:Name="FacultyRadioButton" Content="Факультет"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout >
+                    <RadioButton x:Name="DepartmentRadioButton" Content="Кафедра"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout >
+                    <RadioButton x:Name="YearRadioButton" Content="Рік"/>
+                </HorizontalStackLayout>
+
+            </VerticalStackLayout>
+
+            <Editor Grid.Column="1" x:Name="outputEditor" FontSize="12" Placeholder="" />
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

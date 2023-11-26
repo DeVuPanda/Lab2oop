@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<academicMaterials>
+	<author>
+		<name>Олександр Васильович Петров</name>
+		<materialTitle>Сучасні технології в мікроелектроніці</materialTitle>
+		<faculty>Факультет комп'ютерних наук</faculty>
+		<department>Кафедра мікроелектроніки</department>
+		<materialType>Наукова стаття</materialType>
+		<volume>15 сторінок</volume>
+		<creationDate>20.11.2019</creationDate>
+	</author>
+	<author>
+		<name>Марія Ігорівна Коваленко</name>
+		<materialTitle>Інноваційні методи викладання іноземних мов</materialTitle>
+		<faculty>Філологічний факультет</faculty>
+		<department>Кафедра англійської філології</department>
+		<materialType>Методичний посібник</materialType>
+		<volume>120 сторінок</volume>
+		<creationDate>05.09.2021</creationDate>
+	</author>
+	<author>
+		<name>Ігор Олегович Шевченко</name>
+		<materialTitle>Економіка та екологія: шляхи інтеграції</materialTitle>
+		<faculty>Економічний факультет</faculty>
+		<department>Кафедра екологічної економіки</department>
+		<materialType>Наукова стаття</materialType>
+		<volume>10 сторінок</volume>
+		<creationDate>15.05.2023</creationDate>
+	</author>
+	<author>
+		<name>Тетяна Миколаївна Кравченко</name>
+		<materialTitle>Розробка інтерактивних мобільних додатків</materialTitle>
+		<faculty>Факультет комп'ютерних наук</faculty>
+		<department>Кафедра програмної інженерії</department>
+		<materialType>Науковий доповідь</materialType>
+		<volume>25 сторінок</volume>
+		<creationDate>03.12.2022</creationDate>
+	</author>
+</academicMaterials>
